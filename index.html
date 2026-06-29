@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stopwatch</title>
+<link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+
+<h1>Stop Watch</h1>
+
+<div class="watch">
+  <div class="time" id="display">00:00:00</div>
+  
+  <div class="btn-group">
+    <button class="start" id="startBtn">Start</button>
+    <button class="pause" id="pauseBtn" disabled>Pause</button>
+    <button class="lap" id="lapBtn" disabled>Lap</button>
+    <button class="reset" id="resetBtn" disabled>Reset</button>
+  </div>
+
+  <div class="laps">
+    <h3>Lap Times</h3>
+    <div id="lapList"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
